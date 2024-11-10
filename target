@@ -1,0 +1,16 @@
+#include <stdio.h>
+int i;
+int main()
+{
+    int a[5]={1,7,2,5,3};
+    for(i=0;i<4;i++)
+    {
+        if(a[i]+a[i+1]==9){
+            printf("%d,%d"i,i+1);
+        }
+        else{
+            continue;
+        }
+
+    }
+}
